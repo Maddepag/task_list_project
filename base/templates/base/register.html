@@ -1,0 +1,21 @@
+{% extends 'base/main.html' %}
+{% block content %}
+
+<div class="register-page">
+    <h1 style="color: rgb(61, 82, 202);">create an account</h1>
+
+<form style="color: rgb(61, 82, 202);" method="POST">
+    {% csrf_token %}
+    {{form.as_p}}
+    <input class="button" type="submit" value="register"/>
+</form>
+
+
+
+<p style="color:rgb(61, 82, 202);">already have an account?
+    <a  href="{% url 'login' %}" style="text-decoration: none; color: rgb(4, 100, 243); ">login</a> </p>
+
+</div>
+
+
+{% endblock content %}

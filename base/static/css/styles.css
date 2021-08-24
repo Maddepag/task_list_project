@@ -1,0 +1,196 @@
+* {
+    font-family:'Exo 2', sans-serif;
+    
+}
+
+a {
+    font-weight: 600; 
+}
+
+body  {
+    background: rgb(248, 236, 213);
+    padding-top: 165px;
+
+}
+
+.title {
+    color: rgb(61, 82, 202);
+    width: 100%;
+    top: 20%;
+    text-align: center;
+    position: relative; 
+    
+}
+
+.header-bar {
+    background: rgb(134,161,249);
+    background: linear-gradient(90deg, rgba(134,161,249,1) 19%, rgba(158,211,255,0.8141631652661064) 96%);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px 5px 0 0 ;
+    color: white; 
+
+}
+
+.myTasks {
+    color:rgb(80, 117, 240); 
+    width: 100%;
+    text-align: center;
+    position: relative; 
+}
+
+
+
+.addTask {
+    color: rgb(80, 117, 240); 
+    width: 100%;
+    text-align: center;
+    position: relative; 
+    text-decoration: none;
+}
+
+.taskTable {
+    color: rgb(134,161,249);
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.task-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-top: 1px solid white;
+    overflow: hidden;
+}
+
+.task-title {
+    display: flex;
+    padding: 7px; 
+}
+
+.task-title a {
+    text-decoration: none;
+    color: rgb(80, 117, 240); 
+    margin-left: 10px;
+}
+
+#search-add-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    left: 50%; 
+}
+
+.searchBar {
+    display: flex;
+    width: 800px; 
+
+}
+
+#add-link {
+    color: rgb(143, 96, 252);
+    text-decoration: none;
+    font-size: 50px;
+    text-shadow: 1px 1px #5000e6;
+    left:  17%; 
+}
+
+.card-body {
+    padding: 20px; 
+}
+
+input[type=text],
+input[type=password],
+textarea {
+    border: 1px solid rgb(61, 82, 202);
+    border-radius: 5px;
+    padding: 10px;
+    width: 90%; 
+}
+
+label {
+    padding-top: 10px !important;
+    display: block;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+.login-page {
+    padding: 35px; 
+}
+
+.login-page h1 {
+   color:rgb(61, 82, 202);
+}
+
+.register-page {
+    padding: 35px; 
+}
+
+.register-page p h1 {
+    color:rgb(61, 82, 202) ;
+}
+
+.button {
+    border: 1px solid rgb(61, 82, 202);
+    background-color: white;
+    color: rgb(61, 82, 202);
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.task-complete-icon {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(177, 252, 170);
+    border-radius: 15%; 
+}
+
+.task-incomplete-icon {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(209, 209, 209);
+    border-radius: 15%;
+}
+
+.delete-link {
+    display: flex;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(252, 135, 135);
+    font-size: 27px;
+    line-height: 0;
+   
+}
+
+.delete-page {
+    padding: 20px; 
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.back-link {
+    text-decoration: none;
+    font-size: 20px; 
+    font-weight: bold; 
+    color: white;
+}
+
+.container {
+    max-width: 560px;
+    margin: auto;
+    background-color: rgb(231, 233, 250);
+ 
+    -webkit-box-shadow: 2px 2px 13px -4px rgba(0, 0, 0, 0.21);
+    box-shadow: 2px 2px 13px -4px rgba(0,0,0,0.21)
+}
